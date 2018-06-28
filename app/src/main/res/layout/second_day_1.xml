@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/fruitName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello world"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="www.baidu.com"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:lines="3"
+        android:text="支付宝扫。全是大水！  扫到了就是现金！ 我给你们说 怎么套出来。扫到余额包红包后。比如你扫了6块钱。 你往余额宝转入10块钱。然后去超市商店 或者去www.mitao110.cn网站。去消费了。付款的时候 选择余额宝付款！ 一定要选择余额宝付款，这样 你扫的钱 就能 非常完美的套出来！！换号扫。 拿同学的号 都扫一边"
+        android:maxLength="13"
+        android:textStyle="bold|italic"
+        android:textColor="#FFA8D8"
+        android:textSize="40sp"
+        />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/ic_launcher_round"
+        />
+
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/ic_launcher_round"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:hint="请在此处输入银行卡密码"
+        android:inputType="textPassword"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ShiXunTest</string>
+    <string name="a">A.热干面</string>
+    <string name="b">B.正新鸡排</string>
+    <string name="c">C.把子肉</string>
+    <string name="checkbox">今天中午吃什么</string>
+</resources>
